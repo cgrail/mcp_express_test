@@ -1,19 +1,19 @@
 import express from 'express';
 import bodyParser from 'body-parser';
 
-import ollamaChatRequest from './routes/ollama-route';
+import setupWebSocketServer from './server/websocket-server';
+import ollamaChatRequest from './server/ollama-route';
+import toolsService from './server/toolsService';
+import { port } from './config';
 
 const app = express();
-const PORT = 3000;
-
-
+const server = app.listen(port, () => {
+    console.log(`Server is running on http://localhost:${port}`);
+});
 app.use(bodyParser.json());
-
 app.use(express.static('webapp'));
-
 app.post('/api/request', ollamaChatRequest);
-
-// Start the server
-app.listen(PORT, () => {
-    console.log(`Server is running on http://localhost:${PORT}`);
+setupWebSocketServer(server);
+app.get('/tools', (req, res) => {
+    res.json(toolsService.getTools());
 });

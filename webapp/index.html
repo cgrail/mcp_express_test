@@ -22,74 +22,8 @@
         <button id="button-green" style="background-color: green;">Green Button</button>
         <button id="button-yellow" style="background-color: rgb(242, 255, 0);color: black;">Yellow Button</button>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-    <script>
-        window.onload = function () {
-            document.getElementById('llmInput').focus();
-        };
-        const inputField = document.getElementById('llmInput');
-        const submitButton = document.querySelector('button[type="submit"]');
-        const loadingIndicator = document.getElementById('loadingIndicator');
-        const responseArea = document.getElementById('responseArea');
-        responseArea.style.display = 'none'; // Hide response area initially
-
-        function getButtons() {
-            const buttons = document.querySelectorAll('#target-app button');
-            return Array.from(buttons).map(button => button.id);
-        }
-
-        function pressButton(buttonId) {
-            const button = document.getElementById(buttonId);
-            if (button) {
-                button.click();
-            } else {
-                alert(`Button with ID '${buttonId}' not found.`);
-            }
-        }
-
-        async function sendRequest() {
-            responseArea.innerHTML = '';
-            setBusy(true);
-
-            try {
-                const response = await fetch('/api/request', {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json'
-                    },
-                    body: JSON.stringify({ query: inputField.value })
-                });
-
-                if (!response.ok) {
-                    throw new Error('Network response was not ok');
-                }
-
-                const result = await response.json();
-                responseArea.innerHTML = marked.parse(result.content);
-                if (result.content.trim()) {
-                    responseArea.style.display = 'block'; // Show response area if content exists
-                }
-            } catch (error) {
-                responseArea.textContent = 'Error: ' + error.message;
-                responseArea.style.display = 'block'; // Show response area for error messages
-            } finally {
-                setBusy(false);
-            }
-        }
-        function setBusy(busy) {
-            loadingIndicator.style.display = busy ? 'block' : 'none';
-            inputField.disabled = busy;
-            submitButton.disabled = busy;
-        }
-
-        // Add click handler for target-app buttons
-        document.querySelectorAll('#target-app button').forEach(button => {
-            button.addEventListener('click', () => {
-                const color = button.style.backgroundColor;
-                alert(`You clicked the button with color: ${color}`);
-            });
-        });
-    </script>
+    <script src="app.js"></script>
+    <script src="websocket.js"></script>
 </body>
 
 </html>
