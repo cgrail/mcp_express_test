@@ -50,8 +50,13 @@ button:disabled {
 }
 
 @keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 #loadingIndicator {
@@ -64,6 +69,8 @@ button:disabled {
     animation: spin 1s linear infinite;
     margin: 10px auto;
 }
+
+
 
 .response-container {
     text-align: left;
@@ -79,10 +86,14 @@ button:disabled {
     line-height: 1.6;
     white-space: pre-wrap;
 }
-.response-container h1, .response-container h2, .response-container h3 {
+
+.response-container h1,
+.response-container h2,
+.response-container h3 {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
 .response-container p {
     margin: 5px 0;
 }

@@ -1,29 +1,17 @@
 <html>
 
 <head>
-    <title>LLM Request Page</title>
-    <link rel="stylesheet" type="text/css" href="static/styles.css">
+    <title>MCP Test App</title>
+    <style>
+        frame {
+            border: none;
+        }
+    </style>
 </head>
 
-<body>
-    <div class="container">
-        <h1>Send Request to LLM</h1>
-        <form onsubmit="sendRequest(); event.preventDefault();">
-            <input type="text" id="llmInput" placeholder="Enter your query here" />
-            <button type="submit">Send</button>
-        </form>
-        <div id="loadingIndicator"></div>
-        <div id="responseArea" class="response-container"></div>
-    </div>
-    <div class="container" id="target-app">
-        <h2>App</h2>
-        <button id="button-red" style="background-color: red;">Red Button</button>
-        <button id="button-blue" style="background-color: blue;">Blue Button</button>
-        <button id="button-green" style="background-color: green;">Green Button</button>
-        <button id="button-yellow" style="background-color: rgb(242, 255, 0);color: black;">Yellow Button</button>
-    </div>
-    <script src="app.js"></script>
-    <script src="websocket.js"></script>
-</body>
+<frameset cols="70%, 30%">
+    <frame src="app.html" />
+    <frame src="chat.html" />
+</frameset>
 
 </html>
