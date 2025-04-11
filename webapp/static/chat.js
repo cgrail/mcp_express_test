@@ -27,7 +27,9 @@ async function sendRequest() {
     const answerElement = document.createElement("div");
     answerElement.classList.add('chat-entry');
     answerElement.classList.add('bot');
-    answerElement.innerText = "Loading";
+    const loadingIndicator = document.createElement("div");
+    loadingIndicator.classList.add('loadingIndicator');
+    answerElement.appendChild(loadingIndicator);
     chatHistory.appendChild(answerElement);
     chatHistory.scrollTop = chatHistory.scrollHeight; // Scroll to the bottom
 
