@@ -1,13 +1,23 @@
-import ollama from 'ollama';
 import { Request, Response } from 'express';
-import { llmModel } from '../config';
+import { ChatManager } from './ChatManager';
+
+const chat = new ChatManager();
+let initialized = false;
 
 const ollamaChatRequest = async (req: Request, res: Response) => {
-    const response = await ollama.chat({
-        model: llmModel,
-        messages: [{ role: 'user', content: req.body.query }],
-    });
-    res.send(response.message);
+    try {
+        if (!initialized) {
+            await chat.initialize();
+            initialized = true;
+        }
+        const response = await chat.handleMessage(req.body.query);
+        res.send({
+            content: response
+        });
+    } catch (error) {
+        console.error('Error in ollamaChatRequest:', error);
+        res.status(500).send({ error: 'An error occurred while processing your request.' });
+    }
 }
 
 export default ollamaChatRequest;

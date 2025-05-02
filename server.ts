@@ -3,17 +3,21 @@ import bodyParser from 'body-parser';
 
 import setupWebSocketServer from './server/websocket-server';
 import ollamaChatRequest from './server/ollama-route';
-import toolsService from './server/toolsService';
+import { postTools, getTools } from './server/toolsRoute';
+import { sseGet, messagesPost } from './server/mcpServer';
 import { port } from './config';
 
 const app = express();
 const server = app.listen(port, () => {
     console.log(`Server is running on http://localhost:${port}`);
 });
-app.use(bodyParser.json());
+const jsonParser = bodyParser.json()
+
 app.use(express.static('webapp'));
-app.post('/api/request', ollamaChatRequest);
+app.post('/api/request', jsonParser, ollamaChatRequest);
 setupWebSocketServer(server);
-app.get('/tools', (req, res) => {
-    res.json(toolsService.getTools());
-});
+app.get('/api/tools', getTools);
+app.post('/api/tools', postTools);
+
+app.get('/mcp/sse', sseGet);
+app.post('/mcp/messages', messagesPost);

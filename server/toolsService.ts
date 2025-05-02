@@ -1,4 +1,3 @@
-import { JSONSchemaType } from "ajv";
 import { Tool } from "./Tool";
 
 class ToolsService {
@@ -13,4 +12,4 @@ class ToolsService {
     }
 }
 
-export default new ToolsService();
+ export default new ToolsService();

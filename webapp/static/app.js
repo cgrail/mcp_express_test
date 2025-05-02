@@ -1,5 +1,20 @@
 const socket = new WebSocket(`ws://${location.host}`);
 
+fetch('/api/tools', {
+    method: 'POST',
+    headers: {
+        'Content-Type': 'application/json'
+    },
+    body: JSON.stringify([
+        {
+            "function": {
+                "name": "getButtons",
+                "description": "return id and label of all buttons of the UI"
+            }
+        }
+    ])
+});
+
 socket.onopen = function (event) {
     console.log('WebSocket is open now.');
 };

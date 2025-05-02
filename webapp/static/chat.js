@@ -43,14 +43,15 @@ async function sendRequest() {
         });
 
         if (!response.ok) {
-            throw new Error('Network response was not ok');
+            throw new Error('Request failed. Did you start Ollama?');
         }
 
         const result = await response.json();
 
         answerElement.innerText = result.content;
     } catch (error) {
-        answerElement.innerText = 'Error: ' + error.message;
+        answerElement.innerText = error.message;
+        alert(error.message);
     } finally {
         setBusy(false);
         chatHistory.scrollTop = chatHistory.scrollHeight;
