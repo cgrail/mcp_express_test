@@ -40,3 +40,15 @@ button:disabled {
     color: white;
     cursor: not-allowed;
 }
+
+@keyframes sparkle-animation {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(3);
+        opacity: 0;
+    }
+}
