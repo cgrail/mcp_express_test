@@ -13,6 +13,6 @@ const server = app.listen(port, () => {
 const jsonParser = bodyParser.json()
 
 app.use(express.static('webapp'));
-app.post('/api/request', jsonParser, ollamaChatRequest);
 const webSocketServer = setupWebSocketServer(server);
 setupMCPServer(webSocketServer, app);
+app.post('/api/request', jsonParser, ollamaChatRequest);

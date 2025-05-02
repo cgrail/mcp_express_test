@@ -48,9 +48,20 @@ function pressButton(buttonId) {
     }
 }
 
+let toast;
+let toastTimeOut;
+
 function showToast(message, textColor, backgroundColor) {
     // Show toast
-    const toast = document.createElement('div');
+    if (toast) {
+        toast.remove();
+        toast = null;
+    }
+    if (toastTimeOut) {
+        clearTimeout(toastTimeOut);
+        toastTimeOut = null;
+    }
+    toast = document.createElement('div');
     toast.className = 'toast';
     toast.innerText = message;
     toast.style.position = 'fixed';
@@ -64,7 +75,7 @@ function showToast(message, textColor, backgroundColor) {
     toast.style.zIndex = '1000';
     document.body.appendChild(toast);
 
-    setTimeout(() => toast.remove(), 2000);
+    toastTimeOut = setTimeout(() => toast?.remove(), 5000);
 }
 
 function showSparkleEffect(button) {
@@ -78,9 +89,9 @@ function showSparkleEffect(button) {
     sparkle.style.height = '20px';
     sparkle.style.background = 'gold';
     sparkle.style.borderRadius = '50%';
-    sparkle.style.animation = 'sparkle-animation 1s ease-out';
+    sparkle.style.animation = 'sparkle-animation 3s ease-out';
     document.body.appendChild(sparkle);
-    setTimeout(() => sparkle.remove(), 1000);
+    setTimeout(() => sparkle.remove(), 3000);
 }
 document.querySelectorAll('button').forEach(button => {
     button.addEventListener('click', function () {

@@ -2,14 +2,10 @@ import { Request, Response } from 'express';
 import { ChatManager } from './ChatManager';
 
 const chat = new ChatManager();
-let initialized = false;
+chat.initialize();
 
 const ollamaChatRequest = async (req: Request, res: Response) => {
     try {
-        if (!initialized) {
-            await chat.initialize();
-            initialized = true;
-        }
         const response = await chat.handleMessage(req.body.query);
         res.send({
             content: response

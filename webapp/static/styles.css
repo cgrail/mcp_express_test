@@ -48,7 +48,7 @@ button:disabled {
     }
 
     100% {
-        transform: scale(3);
+        transform: scale(5);
         opacity: 0;
     }
 }
