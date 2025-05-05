@@ -5,7 +5,7 @@ socket.onopen = function (event) {
 };
 
 socket.onclose = function (event) {
-    console.log('WebSocket is closed now. Refreshing the browser...');
+    alert('WebSocket is closed now. Refreshing the browser...');
     reloadPage();
 };
 
