@@ -18,6 +18,10 @@ function setupWebSocketServer(server: Server): WebSocketServerInterface {
     }
 
     wss.on('connection', (ws) => {
+        if (currentWsInstance) {
+            currentWsInstance.close();
+            console.log('Previous WebSocket connection closed');
+        }
         currentWsInstance = ws;
         console.log('New WebSocket connection');
 

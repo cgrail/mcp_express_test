@@ -4,6 +4,24 @@ socket.onopen = function (event) {
     console.log('WebSocket is open now.');
 };
 
+socket.onclose = function (event) {
+    console.log('WebSocket is closed now. Refreshing the browser...');
+    reloadPage();
+};
+
+socket.onerror = function (error) {
+    alert('WebSocket error:', error);
+    reloadPage();
+};
+
+function reloadPage() {
+    if (window.parent) {
+        window.parent.location.reload()
+    } else {
+        location.reload();
+    }
+}
+
 socket.onmessage = function (event) {
     const message = JSON.parse(event.data);
     console.log('Message from server:', event.data);
@@ -24,14 +42,6 @@ function handleMessage(message) {
             return "Action not found" + action;
     }
 }
-
-socket.onclose = function (event) {
-    console.log('WebSocket is closed now.');
-};
-
-socket.onerror = function (error) {
-    alert('WebSocket error:', error);
-};
 
 function getButtons() {
     const buttons = document.querySelectorAll('#target-app button');
