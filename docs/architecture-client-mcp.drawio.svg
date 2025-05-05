@@ -1,0 +1,152 @@
+<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" style="background: transparent; background-color: transparent;" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="565px" height="706px" viewBox="-0.5 -0.5 565 706" content="&lt;mxfile&gt;&lt;diagram id=&quot;9UuR3547d7gQVw8p-eqd&quot; name=&quot;Page-1&quot;&gt;5Vldb+I4FP01PA5KbJyER0I7sysVLRIrze6jISZYY+Ks4xSYX7924nw6tLRNNaz2pc29/j733JPrMIHL4/mbwOlhxSPCJsCJzhP4MAEAQaD+asfFOJygdMSCRqXLbRwb+pMYp2O8OY1I1ukoOWeSpl3njicJ2cmODwvBT91ue866q6Y4JpZjs8PM9n6nkTyU3gA5jf83QuNDtbLrmJYjrjobR3bAET+1XPBxApeCc1k+Hc9LwjR2FS7luK9XWuuNCZLIWwaYQDxjlpuzmX3JS3VYtcVUP+Kd5GICwwMX9CdPJGZPeEvYmmdUUp6oHqI8cogZjbXNyF6b7Eq3TAr+owYQ6IFZWoZrT89E7TC0j2NO+EyEJOeWyxzvG+FHIsVFdTGt0DdQG67NjXlqAge9KUCl99AKG3Kn/tyQxhAmrqdvMFUPBtYrEZu6FsghyaT2UHJS59SbUXtRJD6QiQ6YxwoY9X4E2RdDvH9yzYnwIKUm+UIvD77Galy+ne74URlYUMK+bBVUubIkPn6JBD5R3gxWT7H+/+dipWFleUyTajU9QdVucUBhXS5+VKd8cHXwDCvUMutinhXNMprEbwpanaF4W63kvBhMEARTH3Xi6ft2QEGVb+1wViH+SCyhHUmtJkRcz5q4QCHk+31GpJGyYJD9Gh6qRGZh0kfydJwUcB1/2gUNzGzQkAemA1kAoPNx3GYWbos0HQOzMdABFjrBgEbAQXRcfwR0kI3O78peHrC8E4xmdt4NgeSiz4LIsyDaEPH8n8s7BAbEKhhmljMCbL4F2x+M4aN+szw9re6EXAh239DeELNAYEPkjYBQVVK2IFot1zr7GNVHuhOInC5EcKCK8ZsU7VQxNbs+BJNdw3wn2w3f/SCyLFkmACosYTheXo6RgT1qoRmyqTVULIxCrTcU13lGSKQvHbUaaSESelyoGzZmSMKTwpVEC32PaTxqgo2Sr1aZbapv0/BAhaqzypaM5/rwITlT+ZeyHcWQ0vpbW+b54dw2Lsa4GhQ1qdiRLlskFjGRnRKgPOULketoYBUGQRiW9Ll7/RqKjZlvzanO3ZoGvTuAh3rhLTdvRrWvS69MNJv3JipPbE1UUKU+5G3ssWvN/wl7fJs86BeSB81nU3WjADBw5khdJ4OuoryXSrOgJ0399/2IVAquvOPuSquB39fqunpqqfV8QKzHecUBuxK4IeHsXBpIODu98nQ4uQjOZDu32plV59lwbinkxUUPciujNUqbzbDCepuiB3ZSVir/ala2X7YjJSVEPUXvXzJuVvT5KxONl4bArqHuTNErBjnTmTvvssj3/Fd4VFhrIqiCRInKG8gFbW6BXyj4cNYrtvvF4K3c6k8EPk/iK8Be4pbgeRLpz6qdD3gtKWvxirAtPz02jrBwqIbm6+8n0O49wtWjyPuU7MpXxyHhajPOH4lwvVLA6/PkVsKhHuFQ/9vduwmnzOZHibJ788sOfPwX&lt;/diagram&gt;&lt;/mxfile&gt;">
+    <defs/>
+    <g>
+        <g>
+            <path d="M 263 1 L 297.53 1 L 297.53 52.79 L 263 52.79 L 263 1 Z" fill="#ffffff" stroke="#000000" stroke-width="2" stroke-miterlimit="10" pointer-events="all" style="fill: light-dark(#ffffff, var(--ge-dark-color, #121212)); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+            <ellipse cx="280.26" cy="9.42" rx="7.336916666666665" ry="5.826375" fill="#ffffff" stroke="#000000" stroke-width="2" pointer-events="all" style="fill: light-dark(#ffffff, var(--ge-dark-color, #121212)); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+            <path d="M 280.26 15.24 L 280.26 34.66 M 280.26 22.13 L 265.59 19.13 M 280.26 22.13 L 294.94 19.13 M 280.26 34.66 L 265.59 50.2 M 280.26 34.66 L 294.94 50.2" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" pointer-events="all" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <rect x="181.75" y="681" width="200" height="25" fill="none" stroke="none" pointer-events="all"/>
+        </g>
+        <g/>
+        <g>
+            <path d="M 0.5 151 L 563 151 L 563 381 L 0.5 381 L 0.5 151 Z" fill="#ffffff" stroke="#000000" stroke-width="2" stroke-miterlimit="10" pointer-events="all" style="fill: light-dark(#ffffff, var(--ge-dark-color, #121212)); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <g fill="#000000" font-family="&quot;Helvetica&quot;" text-anchor="middle" font-size="12px" style="fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));">
+                <text x="281.25" y="168.5">
+                    Browser
+                </text>
+            </g>
+        </g>
+        <g>
+            <path d="M 20.5 191 L 353 191 L 353 361 L 20.5 361 L 20.5 191 Z" fill="#ffffff" stroke="#000000" stroke-width="2" stroke-miterlimit="10" pointer-events="all" style="fill: light-dark(#ffffff, var(--ge-dark-color, #121212)); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <g fill="#000000" font-family="&quot;Helvetica&quot;" text-anchor="middle" font-size="12px" style="fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));">
+                <text x="186.25" y="280.5">
+                    App
+                </text>
+            </g>
+        </g>
+        <g>
+            <path d="M 381.75 191 L 536.75 191 L 536.75 361 L 381.75 361 L 381.75 191 Z" fill="#ffffff" stroke="#000000" stroke-width="2" stroke-miterlimit="10" pointer-events="all" style="fill: light-dark(#ffffff, var(--ge-dark-color, #121212)); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <g fill="#000000" font-family="&quot;Helvetica&quot;" text-anchor="middle" font-size="12px" style="fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));">
+                <text x="458.75" y="280.5">
+                    AI Chat
+                </text>
+            </g>
+        </g>
+        <g>
+            <path d="M 0.5 431 L 283 431 L 283 531 L 0.5 531 L 0.5 431 Z" fill="#ffffff" stroke="#000000" stroke-width="2" stroke-miterlimit="10" pointer-events="all" style="fill: light-dark(#ffffff, var(--ge-dark-color, #121212)); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <g fill="#000000" font-family="&quot;Helvetica&quot;" text-anchor="middle" font-size="12px" style="fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));">
+                <text x="141.25" y="448.5">
+                    Server
+                </text>
+            </g>
+        </g>
+        <g>
+            <path d="M 423 591 L 551 591 L 551 651 L 423 651 L 423 591 Z" fill="#ffffff" stroke="#000000" stroke-width="2" stroke-miterlimit="10" pointer-events="all" style="fill: light-dark(#ffffff, var(--ge-dark-color, #121212)); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <g fill="#000000" font-family="&quot;Helvetica&quot;" text-anchor="middle" font-size="12px" style="fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));">
+                <text x="486.5" y="625.5">
+                    Ollama LLM
+                </text>
+            </g>
+        </g>
+        <g>
+            <path d="M 393 301 L 471.75 301 L 471.75 353.5 L 393 353.5 L 393 301 Z" fill="#ffffff" stroke="#000000" stroke-width="2" stroke-miterlimit="10" pointer-events="all" style="fill: light-dark(#ffffff, var(--ge-dark-color, #121212)); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <g fill="#000000" font-family="&quot;Helvetica&quot;" text-anchor="middle" font-size="12px" style="fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));">
+                <text x="431.88" y="331.75">
+                    MCP Client
+                </text>
+            </g>
+        </g>
+        <g>
+            <path d="M 23 456 L 123 456 L 123 516 L 23 516 L 23 456 Z" fill="#ffffff" stroke="#000000" stroke-width="2" stroke-miterlimit="10" pointer-events="all" style="fill: light-dark(#ffffff, var(--ge-dark-color, #121212)); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <g fill="#000000" font-family="&quot;Helvetica&quot;" text-anchor="middle" font-size="12px" style="fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));">
+                <text x="72.5" y="483.5">
+                    WebSocket
+                </text>
+                <text x="72.5" y="497.5">
+                    Server
+                </text>
+            </g>
+        </g>
+        <g>
+            <path d="M 73 456 L 73 416.5" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+            <ellipse cx="73" cy="408.5" rx="8" ry="8" fill="none" stroke="#000000" stroke-width="2" pointer-events="stroke" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+            <path d="M 73 400.5 L 73 361" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+            <path d="M 53 415.5 L 48 413.5 L 53 423.5 L 58 413.5 L 53 415.5 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all" style="fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+            <g fill="#000000" font-family="&quot;Arial&quot;, &quot;Helvetica&quot;" font-size="11px" style="fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));">
+                <text x="48.5" y="408">
+                    R
+                </text>
+            </g>
+        </g>
+        <g>
+            <path d="M 487 591 L 487 484" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+            <ellipse cx="487" cy="476" rx="8" ry="8" fill="none" stroke="#000000" stroke-width="2" pointer-events="stroke" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+            <path d="M 487 468 L 487 361" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+            <path d="M 467 483 L 462 481 L 467 491 L 472 481 L 467 483 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all" style="fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+            <g fill="#000000" font-family="&quot;Arial&quot;, &quot;Helvetica&quot;" font-size="11px" style="fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));">
+                <text x="462.5" y="475.5">
+                    R
+                </text>
+            </g>
+        </g>
+        <g>
+            <path d="M 163 458.5 L 253 458.5 L 253 511 L 163 511 L 163 458.5 Z" fill="#ffffff" stroke="#000000" stroke-width="2" stroke-miterlimit="10" pointer-events="all" style="fill: light-dark(#ffffff, var(--ge-dark-color, #121212)); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+        </g>
+        <g>
+            <g fill="#000000" font-family="&quot;Helvetica&quot;" text-anchor="middle" font-size="12px" style="fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));">
+                <text x="207.5" y="489.25">
+                    MCP Server
+                </text>
+            </g>
+        </g>
+        <g>
+            <path d="M 163 484.75 L 151 484.75" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+            <ellipse cx="143" cy="484.75" rx="8" ry="8" fill="none" stroke="#000000" stroke-width="2" pointer-events="stroke" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+            <path d="M 135 484.75 L 123 484.75" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+            <path d="M 136 464.75 L 138 469.75 L 128 464.75 L 138 459.75 L 136 464.75 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all" style="fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+            <g fill="#000000" font-family="&quot;Arial&quot;, &quot;Helvetica&quot;" font-size="11px" style="fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));">
+                <text x="142.5" y="468.25">
+                    R
+                </text>
+            </g>
+        </g>
+        <g>
+            <path d="M 279.93 151 L 279.93 103.86" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+            <ellipse cx="279.93" cy="95.86" rx="8" ry="8" fill="none" stroke="#000000" stroke-width="2" pointer-events="stroke" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+            <path d="M 279.93 87.86 L 279.93 40.72" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+            <path d="M 259.93 102.86 L 254.93 100.86 L 259.93 110.86 L 264.93 100.86 L 259.93 102.86 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all" style="fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+            <g fill="#000000" font-family="&quot;Arial&quot;, &quot;Helvetica&quot;" font-size="11px" style="fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));">
+                <text x="255.43" y="95.36">
+                    R
+                </text>
+            </g>
+        </g>
+        <g>
+            <path d="M 253 484.75 L 312.9 484.75 Q 322.9 484.75 322.9 474.75 L 322.9 414" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+            <ellipse cx="322.9" cy="406" rx="8" ry="8" fill="none" stroke="#000000" stroke-width="2" pointer-events="stroke" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+            <path d="M 322.9 398 L 322.9 337.25 Q 322.9 327.25 332.9 327.25 L 393 327.25" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="stroke" style="stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+            <path d="M 302.9 413 L 297.9 411 L 302.9 421 L 307.9 411 L 302.9 413 Z" fill="#000000" stroke="#000000" stroke-miterlimit="10" pointer-events="all" style="fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); stroke: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));"/>
+            <g fill="#000000" font-family="&quot;Arial&quot;, &quot;Helvetica&quot;" font-size="11px" style="fill: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));">
+                <text x="298.4" y="405.5">
+                    R
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
