@@ -17,7 +17,7 @@ export class ChatManager {
 
     constructor(ollamaConfig: { host?: string; model?: string } = {}) {
         this.ollama = new Ollama(ollamaConfig);
-        this.model = ollamaConfig.model || "qwen3:latest"; // Default fallback if not provided
+        this.model = ollamaConfig.model || "qwen3:4b";
         this.toolManager = new ToolManager();
         this.messages = [
             {
