@@ -1,0 +1,8 @@
+{
+    "servers": {
+        "my-mcp-server-0caf1780": {
+            "type": "sse",
+            "url": "http://localhost:3000/mcp/sse"
+        }
+    }
+}
