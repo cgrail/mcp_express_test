@@ -84,8 +84,6 @@ function showToast(message, textColor, backgroundColor) {
     toast.style.borderRadius = '5px';
     toast.style.zIndex = '1000';
     document.body.appendChild(toast);
-
-    toastTimeOut = setTimeout(() => toast?.remove(), 5000);
 }
 
 function showSparkleEffect(button) {
@@ -114,15 +112,23 @@ function showSparkleEffect(button) {
             { transform: 'translate(0, 0)', opacity: 1 },
             { transform: `translate(${x}px, ${y}px)`, opacity: 0 }
         ], {
-            duration: 1000,
+            duration: 3000,
             easing: 'ease-out'
         });
 
-        setTimeout(() => star.remove(), 1000);
+        setTimeout(() => star.remove(), 3000);
     }
 }
+
+
 document.querySelectorAll('button').forEach(button => {
     button.addEventListener('click', function () {
+        // Remove border from all buttons
+        document.querySelectorAll('button').forEach(btn => {
+            btn.style.border = '';
+        });
+        // Add border to clicked button
+        button.style.border = '2px solid black';
         showSparkleEffect(button);
         showToast(button.innerText + " clicked", button.style.color, button.style.backgroundColor);
     });
