@@ -59,6 +59,31 @@ export class ChatManager {
         }
     }
 
+    async *handleMessageStreaming(userInput: string): AsyncGenerator<string, void, unknown> {
+        this.messages.push({ role: "user", content: userInput });
+        try {
+            // Get initial response
+            const response = await this.ollama.chat({
+                model: this.model,
+                messages: this.messages as any[],
+                tools: this.toolManager.tools,
+                stream: true
+            });
+
+            for await (const part of response) {
+                if (part.message.content) {
+                    yield part.message.content;
+                }
+                if (part.message.tool_calls) {
+                    await this.handleToolCalls(part.message.tool_calls);
+                }
+            }
+        } catch (error) {
+            yield "Error:" + (error instanceof Error ? error.message : String(error));
+        }
+
+    }
+
     async handleMessage(userInput: string): Promise<string> {
         this.messages = [];
         try {

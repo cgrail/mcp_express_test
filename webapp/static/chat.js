@@ -46,9 +46,19 @@ async function sendRequest() {
             throw new Error('Request failed. Did you start Ollama?');
         }
 
-        const result = await response.json();
-
-        answerElement.innerText = result.content;
+        // Stream the response
+        const reader = response.body.getReader();
+        const decoder = new TextDecoder();
+        let content = '';
+        setBusy(false);
+        while (true) {
+            const { done, value } = await reader.read();
+            if (done) break;
+            const chunk = decoder.decode(value, { stream: true });
+            content += chunk;
+            answerElement.innerText = content;
+            chatHistory.scrollTop = chatHistory.scrollHeight;
+        }
     } catch (error) {
         answerElement.innerText = error.message;
         alert(error.message);
